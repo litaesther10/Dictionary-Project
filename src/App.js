@@ -8,8 +8,9 @@ function App() {
       <div className="container">
         <header>
           <h1> WELCOME</h1>
-          <Dictionary />
         </header>
+        <Dictionary />
+        <footer>Coded by Esthel Lizardo</footer>
       </div>
     </div>
   );
