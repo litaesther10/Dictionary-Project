@@ -8,7 +8,7 @@ export default function Dictionary() {
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    //console.log(response.data[0].meanings[0].definitions[0]);
+    //response.data[0].meanings[0].definitions[0]; How to find the definitions.
     setResults(response.data[0]);
   }
 
@@ -25,7 +25,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
+      <form onSubmit={search} className="text-center">
         <input type="search" onChange={handleChange} />
       </form>
       <Results info={results} />

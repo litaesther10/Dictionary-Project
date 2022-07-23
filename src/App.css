@@ -1,5 +1,13 @@
+.App {
+  margin: auto;
+}
+
 .App h1 {
+  text-align: center;
   font-size: 90px;
   color: #388080;
+}
+
+.App footer {
   text-align: center;
 }
